@@ -8,19 +8,27 @@ body{
     text-align: center;
 }
 h1{
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 2px;
     font-weight: bold;
     font-size: 60px;
 }
 form{
-    display: flex;
-    justify-content: center;
+    display: block;
+    flex-direction: column;
+    width: 600px;
+    background: #f2f2f2;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin: 50px auto 50px  auto;
+   
 }
 .label-name{
-    width: 40%;
     border-radius: 5px;
-    padding: 20px;
+    padding: 18px 20px;
+    margin: 8px 0;
     background: #f2f2f2;
+    
 }
 input[type=text],select{
     width: 92%;
@@ -30,4 +38,14 @@ input[type=text],select{
     border-radius: 5px;
     border: 1px solid #cccccc; 
 }
+label{
+    font-weight: bold;
+    font-size: 20px;
+}
 /* Email  */
+
+.label-email{
+    padding: 18px 20px;
+    margin: 8px 0;
+    background: #f2f2f2;
+}
