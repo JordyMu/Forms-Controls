@@ -64,4 +64,5 @@ label{
 }
 .radio{
     display: flex;
+    justify-content: center;
 }
