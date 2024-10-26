@@ -30,7 +30,8 @@ form{
     background: #f2f2f2;
     
 }
-input[type=text],select{
+input[type=text],
+input[type=date],select{
     width: 92%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -67,17 +68,34 @@ label{
 .radio{
     display: flex;
     justify-content: center;
+    padding: 10px 0;
 }
-
+/* DeliveryDate */
+.d-date{
+    margin-left: 50px;
+    margin: 10px;
+    padding: 10px 0;
+}
+#deliveryDate{
+    margin-left: 25px;
+    padding: 8px 0;
+}
+input[type="date"],select{
+    padding: 0.5rem;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 20px;
+}
 /* Button */
 button{
-    width: 100%;
+    width: 92%;
     color: white;
-    font-weight: bold;
+    font-weight: 700;
     border-radius: 4px;
     background:#F77F00;
-    margin: 8px 0 0;
+    margin: 8px 26px 20px;
     padding: 14px 20px;
+    display: center;
     cursor: pointer;
 
 }
